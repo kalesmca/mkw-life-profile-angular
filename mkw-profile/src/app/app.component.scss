@@ -1,0 +1,14 @@
+.app-container{
+  display: flex;
+  flex-direction: column;
+  .header-block{
+    height: 100px;
+    background: var(--primaryBgColor);
+    width: 100%;
+    color: var(--primaryFontColor);
+}
+
+  .app-body-block{
+
+  }
+}
