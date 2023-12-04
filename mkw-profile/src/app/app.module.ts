@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CommonModule } from '@angular/common';
+import { NgbDropdownModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,7 +19,9 @@ import { EntryListComponent } from 'src/containers/construction/entry-list/entry
     BrowserModule,
     CommonModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    NgbDropdownModule,
+    NgbNavModule
   ],
   providers: [],
   bootstrap: [AppComponent]
