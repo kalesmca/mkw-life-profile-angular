@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { DecimalPipe } from '@angular/common';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,11 +12,12 @@ import { VehicleCreateBudgetComponent } from 'src/containers/vehicle/vehicle-cre
 import { VehicleBudgetListComponent } from 'src/containers/vehicle/vehicle-budget-list/vehicle-budget-list.component';
 @NgModule({
   declarations: [
-    AppComponent, TripListComponent, CreateTripComponent, HeaderComponent, VehicleCreateBudgetComponent
+    AppComponent, TripListComponent, CreateTripComponent, HeaderComponent, VehicleCreateBudgetComponent, VehicleBudgetListComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DecimalPipe
   ],
   providers: [],
   bootstrap: [AppComponent]

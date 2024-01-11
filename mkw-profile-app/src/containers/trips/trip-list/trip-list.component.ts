@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TripListComponent implements OnInit {
 
+  tripList = []
   constructor() { }
 
   ngOnInit() {
